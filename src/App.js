@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { TicTacToe } from "./components/tic-tac-toe/tic-tac-toe";
+import  WordScramble  from "./components/word-scramble/word-scramble";
 
 function App() {
 	return (
@@ -12,7 +12,7 @@ function App() {
 				<img src={logo} className='App-logo' alt='logo' />
 			</header>
 			<main>
-				<TicTacToe />
+				<WordScramble />
 			</main>
 		</div>
 	);
